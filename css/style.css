@@ -1,0 +1,48 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	max-width: 960px;
+}
+
+body {
+	width: 960px;
+}
+
+dl:first-child {
+	margin-top: 100px;
+}
+
+dl,
+dt,
+dd {
+	width: 500px;
+	font-size: 26px;
+}
+
+dt {
+	margin: 0 auto;
+	border: solid 1px #444444;
+	background-color: #ff116f;
+	cursor: pointer;
+	text-align: center;
+}
+
+dt:hover {
+	opacity: 0.9;
+}
+
+dd {
+	height: 0;
+	opacity: 0.5;
+	overflow-y: hidden;
+	border-top: none;
+	text-align: left;
+	font-size: 16px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.opened {}
